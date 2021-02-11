@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.content{
+	height: 100vh;
+	padding-top: 25vh;
+	font-family: 'Lato', sans-serif;
+	background-color: #5c5ce6;
+}
+h1{
+	text-align: center;
+	font-family: 'Do Hyeon', sans-serif;
+	color: white;
+}
+h1 #yellow{
+	color: yellow;
+}
+.container{
+	width: 320px;
+	max-width: 100%;
+	margin: 15px auto;
+	background-color: #3b3b98;
+	border-radius: 5px;
+	padding: 15px;
+	color: white;
+	box-shadow: 0px 0px 2px 1px rgba(187,187,255,0.75);
+-webkit-box-shadow: 0px 0px 2px 1px rgba(187,187,255,0.75);
+-moz-box-shadow: 0px 0px 2px 1px rgba(187,187,255,0.75);
+}
+.pw-result{
+	background-color: rgba(0,0,0,0.4);
+	height: 38px;
+	padding: 5px 10px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.result{
+	width: 90%;
+	background-color: transparent;
+	border: none;
+	color: white;
+	outline: none;
+	height: 28px;
+}
+.far{
+	position: absolute;
+	right: 5px;
+	padding: 6px;
+	background-color: #5c5ce6;
+}
+.far:hover{
+	background-color:#5555d4;
+}
+h4{
+	margin-bottom: 7px;
+	font-size: 14px;
+	padding-left: 4px;
+	text-align: center;
+}
+p{
+	font-size: 12px;
+	margin-bottom: 4px;
+	padding-left: 5px;
+	text-transform: uppercase;
+}
+.slider{
+	width: 100%;
+	background-color: rgba(0,0,0,0.4);
+	height: 40px;
+	padding: 5px 10px;
+}
+.length{
+	width: 100%;
+	margin-top: 8px;
+}
+.setting-element{
+	margin: 5px;
+	font-size: 13px;
+	line-height: 2;
+	display: flex;
+	justify-content: space-between;
+}
+#get-password{
+	width: 97%;
+	padding: 7px;
+	margin-left: 4px;
+	text-align: center;
+	color: white;
+	background-color: #5c5ce6;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-weight: 600;
+	font-size: 16px;
+}
+button:hover{
+	background-color:#5555d4;	
+}
